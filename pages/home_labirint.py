@@ -61,13 +61,6 @@ class LabirintHomePage(WebPage):
     in_basket = WebElement(css_selector='#buy588504')
 
     # корзина
-    # basket = WebElement(css_selector=r'#minwidth > div.top-header > div > div.b-header > div.b-header-b-pe'
-    #                                  r'rsonal.col-xs-6.col-sm-9.col-md-5.col-md-push-5.col-lg-push-6.col-lg-4.col-xxl'
-    #                                  r'-push-7.col-xxl-3.js-toggle-menu-block > div > ul > li.b-header-b-personal-e-l'
-    #                                  r'ist-item.have-dropdown.last-child > a > span.b-header-b-personal-e-icon-wrapper'
-    #                                  r'.\<\!--b-header-b-personal-e-icon-wrapper-m-cart--\> > span.b-header-b-persona'
-    #                                  r'l-e-wrapper-m-closed > span.b-header-b-personal-e-icon-co'
-    #                                  r'unt-m-cart.basket-in-cart-a')
     basket = WebElement(xpath='//*[@id="minwidth"]/div[5]/div/div[1]/div[2]/div/ul/li[6]/a/span[1]/span[1]/span[3]')
 
     # перейти к оформлению
